@@ -1,0 +1,36 @@
+/* Blog Section */
+#blog {
+    background: rgba(15, 12, 41, 0.8);
+}
+
+.blog-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.blog-post {
+    /* background: #ffffff; */
+    /* border: 1px solid #ddd; */
+    padding: 1.5rem;
+    border-radius: 10px;
+    flex: 1 1 45%;
+    transition: box-shadow 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.blog-post:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h3 {
+    /* color: #222; */
+    margin-bottom: 1rem;
+}
+
+.blog-post a {
+    color: #0077ff;
+    text-decoration: none;
+    font-weight: 600;
+}

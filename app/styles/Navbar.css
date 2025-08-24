@@ -1,0 +1,65 @@
+/* Header */
+header {
+    backdrop-filter: blur(8px);
+    background-color: rgba(15, 12, 41, 0.8);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 1rem 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    height: 50px;
+    /* filter: drop-shadow(0 0 5px #00ffe0); */
+    filter: drop-shadow(0 0 #00ffe0);
+}
+
+.logo-text {
+    position: relative;
+    left: -72px;
+    top: -10px;
+    color: #f0feff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00ffe0;
+}
+
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#bookmeeting {
+    color: black;
+}

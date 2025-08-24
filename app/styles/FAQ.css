@@ -1,0 +1,21 @@
+/* Faq Section */
+
+.faq-item {
+    margin-bottom: 1.5rem;
+    transition: box-shadow 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #0077ff;
+}
+
+.faq-item h4 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    /* color: #333; */
+}
+
+.faq-item p {
+    /* color: #555; */
+    font-size: 0.95rem;
+}
